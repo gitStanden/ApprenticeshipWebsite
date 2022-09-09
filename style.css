@@ -1,0 +1,265 @@
+/* Header, Body and Footer Styles */
+/* Header Section */
+header{
+    background-color: #1c2c48;
+}
+
+/* Header navBar */
+#navBar {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 20px;
+    padding-left: 120px;
+}
+
+#headerLogo {
+    width: 150px;
+    margin-right: 40px;
+}
+
+#headerSections {
+    display: flex;
+    font-family: sans-serif;
+    color: white;
+    gap: 30px;
+    font-weight: 600;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.links:hover {
+    color: #5e94f2;
+}
+
+
+/* Body Section */
+body{
+    background-color: #5e94f2;
+    margin: 0;
+}
+
+/* Body Section - Body Header Section */
+#homeHeaderSection {
+    background-color: #3d609d;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic';
+    color: white;
+}
+
+#homeHeaderText {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+#homeHeaderSubText {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Book';
+}
+
+#homeHeaderWhiteBox {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#homeHeaderImg {
+    width: 1000px;
+}
+
+
+/* Footer Section */
+footer{
+    background-color: #1c2c48;
+    margin: 0;
+}
+
+/* Footer Section - Containers */
+#footerContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#footerBlueBox {
+    background-color: #5e94f2;
+    border-radius: 10px;
+    padding: 35px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic';
+}
+
+#footerHeader {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+#footerSub {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Book';
+}
+
+#inputsButtonContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    align-items: baseline;
+}
+
+.inputs {
+    height: 28px;
+    border-radius: 8px;
+    border-color: white;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    box-shadow: none;
+}
+
+#subscribeButton {
+    background-color: #481c42;
+    color: white;
+    padding: 8.5px;
+    border-radius: 8px;
+}
+
+
+
+
+/* Homepage */
+/* Body Section - Body Header Section */
+#homeHeaderSection {
+    background-color: #3d609d;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic';
+    color: white;
+}
+
+#homeHeaderText {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+#homeHeaderSubText {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Book';
+}
+
+#homeHeaderWhiteBox {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+#homeHeaderImg {
+    width: 1000px;
+}
+
+/* Body Section - Main Body */ 
+#mainBody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+#mainBodyHeader {
+    font-family: 'Franklin Gothic';
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+    align-self: center;
+}
+
+#mainBodyWhiteBox {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.secText {
+    font-family: 'Franklin Gothic';
+    font-weight: bold;
+    font-size: x-large;
+    color: #481c42;
+    text-align: center;
+}
+
+.stockPhoto {
+    width: 500px;
+}
+
+.blueBox {
+    background-color: #481c42;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+/* healthsafety */
+#hsHeroBody {
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic';
+    color: white;
+    background-color:#3d609d;
+    gap: 120px;
+    padding: 30px;
+}
+
+#hsHeroText{
+    text-align: center;
+}
+
+#hsHeroBodyHeader {
+    font-size: 60px;
+}
+
+#hsHeroBodySubHeader{
+    font-family: 'Franklin Gothic Book';
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+#hsHeroBox {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#hsHeroImg {
+    width: 500px;
+}
+
+#hsMainBody {
+    padding: 50px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Book';
+    text-align: center;
+    color: white;
+}
